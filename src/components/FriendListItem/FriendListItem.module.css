@@ -1,0 +1,47 @@
+.item {
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 300px;
+  height: 80px;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid rgb(146, 146, 152);
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgb(103, 103, 103);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.online,
+.offline {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.online {
+  background-color: rgb(128, 201, 119);
+}
+
+.offline {
+  background-color: rgb(211, 95, 95);
+}
+.avatar {
+  margin-right: 10px;
+  width: 60px;
+}
+.name {
+  font-size: 30px;
+  line-height: 1.4;
+}
+
+.item:hover,
+.item:focus {
+  transform: scale(1.05);
+}
