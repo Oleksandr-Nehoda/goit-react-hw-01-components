@@ -28,13 +28,13 @@
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 10px;
-    color: rgb(105, 105, 105);
+    color: var(--textColor);
   }
   
   .location {
     font-size: 18px;
     margin-bottom: 10px;
-    color: rgb(105, 105, 105);
+    color: var(--textColor);
   }
   
   .stats {
@@ -47,7 +47,7 @@
     height: 40px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(146, 172, 170);
+    background-color: var(--brandColor);;
   
     align-items: center;
     border-radius: 5px;

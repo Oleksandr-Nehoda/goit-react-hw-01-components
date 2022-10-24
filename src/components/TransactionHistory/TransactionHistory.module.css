@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    width: 120px;
+    padding: 10px;
+    border: 2px solid var(--textColor);
+  }
+
+  table thead {
+    background-color: var(--brendColor);
+  }
+  .transactionTable{
+ margin: 0 auto;
+  }

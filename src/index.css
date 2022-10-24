@@ -1,3 +1,8 @@
+:root {
+  --textColor: rgb(105, 105, 105);
+  --brandColor: rgb(146, 172, 170);
+}
+
 @import-normalize; /* bring in normalize.css styles */
 
 body {
