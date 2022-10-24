@@ -17,8 +17,8 @@ table thead {
   margin: 0 auto;
 }
 
-tr:hover,
-tr:focus {
+tbody tr:hover,
+tbody tr:focus {
   cursor: pointer;
   background-color: rgb(203, 203, 215);
   transition: all 0.1s ease;
